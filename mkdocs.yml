@@ -9,9 +9,12 @@ nav:
     - Study:
         - Study/shell/command.md
         - Study/shell/sh.md
+        - Study/git/git_overview.md
+        - Study/git/gitignore.md
+        - Study/git/git_stash.md
     - Project:
-        - ft/fp/overview.md
-        - ft/tp/overview.md
+        - Project/ft/fp/fp_overview.md
+        - Project/ft/tp/tp_overview.md
 
 
 theme:
