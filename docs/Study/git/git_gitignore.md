@@ -1,4 +1,4 @@
-# gitignore文件
+# git_gitignore
 
 [TOC]
 
