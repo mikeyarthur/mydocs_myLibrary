@@ -1,1 +1,31 @@
-site_name: My Docs
+site_name: mydocs_myLibrary
+site_url: http://127.0.0.1:6008
+repo_url: https://github.com/mikeyarthur/mydocs_myLibrary.git
+dev_addr: 127.0.0.1:6008
+
+nav:
+    - Home: ./index.md
+    # - About: ./../README.md
+    - Study:
+        - Study/shell/command.md
+        - Study/shell/sh.md
+    - Project:
+        - ft/fp/overview.md
+        - ft/tp/overview.md
+
+
+theme:
+    # name: mkdocs
+    # name: readthedocs
+    name: windmill                 # pip install mkdocs-windmill
+    custom_dir: custom_theme
+
+plugins:
+    - search
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
+
