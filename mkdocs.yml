@@ -10,8 +10,10 @@ nav:
         - Study/shell/command.md
         - Study/shell/sh.md
         - Study/git/git_overview.md
-        - Study/git/gitignore.md
+        - Study/git/git_gitignore.md
         - Study/git/git_stash.md
+        - Study/Obsidian/Mikey的小目标.md
+        - Study/Obsidian/Obsidian_demo.md
     - Project:
         - Project/ft/fp/fp_overview.md
         - Project/ft/tp/tp_overview.md
