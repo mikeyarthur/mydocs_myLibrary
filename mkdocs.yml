@@ -7,17 +7,23 @@ nav:
     - Home: ./index.md
     # - About: ./../README.md
     - Study:
-        - Study/shell/command.md
-        - Study/shell/sh.md
-        - Study/git/git_overview.md
-        - Study/git/git_gitignore.md
-        - Study/git/git_stash.md
-        - Study/Obsidian/Mikey的小目标.md
-        - Study/Obsidian/Obsidian_demo.md
+        - shell:
+            - Study/shell/command.md
+            - Study/shell/sh.md
+        - git:
+            - Study/git/git_overview.md
+            - Study/git/git_gitignore.md
+            - Study/git/git_stash.md
+        - Obsidian:
+            - Study/Obsidian/Mikey的小目标.md
+            - Study/Obsidian/Obsidian_demo.md
     - Project:
-        - Project/ft/fp/fp_overview.md
-        - Project/ft/tp/tp_overview.md
-
+        - ft:
+            - fp:
+                - Project/ft/fp/fp_overview.md
+                - Project/ft/fp/fp_event_thread.md
+            - tp:
+                - Project/ft/tp/tp_overview.md
 
 theme:
     # name: mkdocs
