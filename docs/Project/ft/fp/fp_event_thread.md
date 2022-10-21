@@ -1,7 +1,7 @@
 
 
-<span style="font-size: 60px; background-color: rgb(255, 255, 255);">
-	<span style="color: rgb(0, 0, 0);">事件线程</span>
+<span style="font-size: 60px; background-color: rgb(0, 0, 0);">
+	<span style="color: rgb(255, 255, 255);">事件线程</span>
 	<span style="color: rgb(0, 0, 0); background-color: rgb(255, 153, 0);">重构</span>
 </span>
 
@@ -253,7 +253,7 @@ while (g_context->b_device_event_thread_running) {
 
 
 ---
-## 2. 流程图说明
+## <span id="id_flow_chart">2. 流程图说明</span>
 ---
 ### 2.1. 代码实现说明
 
@@ -281,32 +281,28 @@ while(true)
 
 ### 2.2. 流程图
 
-
-
-![[ft_fp_event_thread_moudules_flow_chart.png]]
-
+![flow_chart](./../../../resources/pic/ft_fp_event_thread_moudules_flow_chart.png)
 
 ---
-## 3. goto语句的转化
+## <span id="id_goto">3. goto语句的转化</span>
 ---
-![[ft_fp_event_thread_goto_continue_controlState.png]]
-
+![flow_chart](./../../../resources/pic/ft_fp_event_thread_goto_continue_controlState.png)
 
 ---
 ## 4. continue语句的转化
 ---
-见[[fp_event_thread#3 goto语句的转化]]  与 [[fp_event_thread#2 流程图说明]]
+见[fp_event_thread#3 goto语句的转化](#id_goto)  与 [fp_event_thread#2 流程图说明](#id_flow_chart)
 
 ---
 ## 5. controlState的使用
 ---
-见[[fp_event_thread#3 goto语句的转化]]  与 [[fp_event_thread#2 流程图说明]]
+见[fp_event_thread#3 goto语句的转化](#id_goto)  与 [fp_event_thread#2 流程图说明](#id_flow_chart)
 
 
 ---
 ## 6. 框架demo（采图子流程为例）
 ---
-参考[[fp_event_thread#2 1 流程图]] 与 [[fp_event_thread#2 2 流程图]]
+参考 [fp_event_thread#2 流程图说明](#id_flow_chart)
 
 ```C++
 static int __capture_handler(void *data) {
